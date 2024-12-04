@@ -142,11 +142,12 @@
     display: flex;
     flex-direction: column;
     margin-right: 30px;
+    margin-left: 50px;
   }
   
   .emojis span {
     font-size: 50px;
-    margin: 30px 0;
+    margin: 40px 0;
   }
   
   /* Cards Grid */
@@ -159,7 +160,8 @@
   
   /* Individual Card */
   .card {
-    background: #f9f9f9;
+    background: rgba(244, 242, 242, 0.70);
+    backdrop-filter: blur(9.550000190734863px);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -174,6 +176,10 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.1px;
+  }
+  .card .para1{
+    font-size: 12px;
+        margin-top: 100px;
   }
   .card h3{
     color: #000;
@@ -191,7 +197,7 @@
   }
   
   .card .trophy {
-    background: gold;
+    background: rgb(140, 0, 255);
   }
   
   .card .blue {
@@ -226,14 +232,14 @@
     right: 0;
     opacity: 0.3;
   }
-  
+
   .card .stripes {
     width: 80px;
     height: 80px;
     background: repeating-linear-gradient(
       45deg,
-      #0073e6,
-      #0073e6 10px,
+      #e6cf00,
+      #e6db00 10px,
       transparent 10px,
       transparent 20px
     );
@@ -242,7 +248,7 @@
   .card .curve {
     width: 100px;
     height: 100px;
-    background: radial-gradient(circle, #0073e6 20%, transparent 50%);
+    background: radial-gradient(circle, #0080ff 20%, transparent 80%);
   }
   
   .card .spiral {
