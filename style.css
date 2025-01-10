@@ -256,31 +256,30 @@
     height: 80px;
     background: radial-gradient(circle, #2ecc71 10%, transparent 70%);
   }
-.bts-contact{
+.header-title{
   color: #000;
-    font-family: AXIS;
-    font-size: 1600px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    letter-spacing: 5.6px;
-    margin-bottom: 20px;
-    text-align: left;
-    padding-left: 50px;
+  font-family: AXIS;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  margin-top: 100px;
+  text-align: left;
+  padding-left: 150px;
 }
   .contact-container {
     display: flex;
-    gap: 20px;
-    background: linear-gradient(135deg, #f7f9fc, #d3e0fc);
+    gap: 50px;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
   }
 
   .map {
-    width: 400px;
-    height: 400px;
-    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+    border-radius:8px;
     overflow: hidden;
   }
 
@@ -294,27 +293,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.265);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .contact-info h1 {
-    margin: 0;
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .contact-info h1 span {
-    font-size: 32px;
-  }
-
   .contact-info p {
+    width: 500px;
     font-size: 18px;
     margin: 10px 0;
     display: flex;
