@@ -301,7 +301,7 @@
 
   .contact-info p {
     width: 400px;
-    font-size: 18px;
+    font-size: 9px;
     margin: 10px 0;
     display: flex;
     align-items: center;
@@ -320,4 +320,32 @@
 
   .contact-info a:hover {
     color: #0078d7;
+  }
+  .contact-infocer h2 {
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+    font-size: 32px;
+  }
+  .contact-infocer p{
+    letter-spacing: 0px;
+    font-size: 10px;
+    font-weight: 100;
+  }
+  .connect-infocer a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+  }
+  .connect-infocer a:hover {
+    color: #ffffff;
+  }
+  .email-icon {
+    font-size: 20px;
+    vertical-align: middle;
+  }
+  .icon {
+    width: 24px;
+    height: 24px;
   }
