@@ -9,6 +9,7 @@
     <link href="https://db.onlinewebfonts.com/c/30f647fcbdc216b653ddb8e2b7c302d3?family=Larken+DEMO" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -139,6 +140,7 @@
             referrerpolicy="no-referrer-when-downgrade">
           </iframe>
         </div>
+  <!--
         <div class="contact-infocer">
           <h2>Let's Connect</h2>
     <p>
@@ -146,15 +148,34 @@
       I'll try my best to get back to you as early as possible :0
       <span class="email-icon">📧</span>
     </p>
+    <div class="sicon">
     <a href="https://github.com/" target="_blank">
       <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="sicon">
     </a>
     <a href="https://linkedin.com/" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="sicon">
-    </a> 
-        </div>
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="icon">
+    </a> </div>
+        </div> -->
 
         <!--Is it a new commit-->
+
+        <div class="form-container">
+          <form id="contact-form">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" placeholder="Your full name" required>
+      
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Your email address" required>
+      
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" placeholder="Your company name">
+      
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Type your message here"></textarea>
+      
+            <button type="submit">Submit</button>
+          </form>
+        </div>
       </div>
 </body>
 </html>
