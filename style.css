@@ -351,7 +351,7 @@
   }
 
   .form-container {
-    background: #f3f3f332;
+    background: rgba(244, 242, 242, 0.70);;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -378,7 +378,7 @@
     border-radius: 5px;
     border: none;
     width: 100%;
-    background-color: #f3f3f332;
+    background-color: #ffffff78;
   }
 
   textarea {
